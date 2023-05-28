@@ -6,11 +6,13 @@ function App() {
 
   return (
     <>
-      <header className="container max-auto px-2">
+      <header className="p-5">
     <Typography variant="h4" fontWeight="bold" className="text-purple-700	m-3">
       Welcome!
-      </Typography>
-      <Home />
+        </Typography>
+        <main className="">
+          <Home />
+        </main>
       </header>
     </>
   )
